@@ -1,0 +1,179 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+  .sign-up-type {
+    padding-right: 0;
+    margin-right: 10px;
+  }
+}
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+
+  /* FEATURE SECTION */
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  /* HOW IT WORK SECTION */
+  .btn-app img {
+    height: 45px;
+    width: auto;
+  }
+  .steps {
+    margin-top: 60px;
+  }
+  .steps ul li {
+    margin-bottom: 40px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+
+  /* SECTION CITY */
+  .section-cities .fas,
+  .section-cities .fab {
+    width: 17px;
+    font-size: 100%;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  .section-cities {
+    font-size: 90%;
+  }
+
+  /* SIGN UP SECTION */
+  .sign-up-type {
+    padding-right: 0;
+    margin-right: 10px;
+  }
+  .price-type,
+  .description,
+  .sign-up-button {
+    font-size: 90%;
+  }
+  .sign-up-button {
+    margin-left: 0px;
+  }
+  .sign-up-now .fas {
+    font-size: 60%;
+  }
+  .price-month {
+    font-size: 250%;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 10px 20px;
+  }
+
+  /* CONTACT FORM */
+  .contact-form {
+    font-size: 90%;
+    width: 80%;
+  }
+
+  .customer-said {
+    margin-left: 5px;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  .col {
+    width: 100%;
+  }
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 25px 0;
+  }
+
+  /* Display content in column */
+
+  .container,
+  .city-container,
+  .feedback-container,
+  .sign-up-container {
+    flex-direction: column;
+  }
+  .feature-section .fas {
+    font-size: 150%;
+  }
+  .city-working {
+    width: 100%;
+  }
+  .row {
+    padding: 0 4%;
+  }
+  .app-screen {
+    height: 400px;
+    width: auto;
+  }
+  .app-iphone {
+    text-align: center;
+  }
+  .sign-up-type {
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .city-working {
+    margin: 0px 0px 20px 0;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+  }
+  .footer-nav {
+    margin-right: 30px;
+  }
+  .footer-social {
+    margin-left: 30px;
+  }
+
+  /* Responsive Hambuger menu */
+  .nav-menu {
+    display: block;
+    display: none;
+  }
+  .nav-menu li {
+    margin: 20px 0 20px 20px;
+  }
+  .nav-menu li a:link,
+  .nav-menu li a:visited {
+    border-bottom: none;
+  }
+  .nav-container {
+    justify-content: flex-start;
+  }
+  .ham-menu {
+    display: block;
+  }
+  .logo-black {
+    margin-top: 15px;
+  }
+  .sticky-nav .ham-menu i {
+    color: #555;
+    font-size: 180%;
+    cursor: pointer;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  /* brad trasversy have some reponsive very effective leave for that */
+}
